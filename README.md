@@ -126,6 +126,12 @@ The following scripts are available in the `package.json`:
 
 ## 🔗 Coupling Graph
 
+### PreRequisition
+
+```bash
+brew install graphviz || port install graphviz
+```
+
 The `coupling-graph` script is a useful tool that helps visualize the coupling and connections between your project's internal modules. It's built using the [Madge](https://github.com/pahen/madge) library. To generate the graph, simply run the following command:
 
 ```bash

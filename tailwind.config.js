@@ -29,6 +29,14 @@ module.exports = {
           800: "#1e40af",
           900: "#1e3a8a",
         },
+        backgroundColor: {
+          normal: "bg-slate-300",
+          inverted: "black",
+        },
+        textColor: {
+          normal: "black",
+          inverted: "white",
+        }
       },
       fontFamily: {
         body: [
